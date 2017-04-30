@@ -1,4 +1,4 @@
-# FUNK
+# 🎺🎷🎸 FUNK 🎺🎷🎸
 
 A ES6 library for funktional programming.
 
