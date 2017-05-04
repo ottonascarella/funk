@@ -9,7 +9,7 @@ describe('map', () => {
 			assert.notDeepEqual(array, map(x => x + 1, array));
 		});
 		it('should return deepEqual array', () => {
-			assert.notDeepEqual([2,3,4], map(x => x + 1, array));
+			assert.deepEqual([2,3,4], map(x => x + 1, array));
 		});
 	});
 

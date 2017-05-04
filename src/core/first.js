@@ -1,1 +1,2 @@
-export default (coll) => coll[0];
+import prop from './prop';
+export default (coll) => prop(0, coll);

@@ -1,4 +1,4 @@
-const curry = (fn, arity = fn.length) => {
+const curry = (funk, arity = funk.length) => {
 
     const curried = (args = []) => (...more) => {
 
@@ -6,7 +6,7 @@ const curry = (fn, arity = fn.length) => {
 
         return (all.length < arity)
                 ? curried(all)
-                : fn(...all);
+                : funk(...all);
    };
 
    return curried();

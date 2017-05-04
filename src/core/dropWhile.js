@@ -4,4 +4,5 @@ const dropWhile = curry((pred, coll) => {
     while (pred(coll[i])) i++;
 
     return coll.slice(i);
-});export default dropWhile;
+});
+export default dropWhile;

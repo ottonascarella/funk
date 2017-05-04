@@ -1,2 +1,2 @@
-const rest = (coll) => coll.slice(1);
+const rest = ([a,...b]) => b;
 export default rest;
