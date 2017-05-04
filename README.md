@@ -2,7 +2,7 @@
 
 A ES6 library for funktional programming.
 
-## Current Development State (experimental)
+## Current Development State (just-for-funk, experimental)
 
 ## Intended Roadmap
 
